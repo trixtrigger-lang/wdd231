@@ -6,11 +6,43 @@
 
     nav {
         display: block;
+        background: none;
     }
 
     nav ul {
         display: flex;
+        justify-content: center;
         gap: 1rem;
-        list-style: none;
+    }
+
+    nav li {
+        border: none;
+    }
+
+    nav a {
+        color: white;
+        padding: 0.5rem 1rem;
+    }
+
+    nav a:hover {
+        background-color: #4CAF50;
+        border-radius: 5px;
+    }
+
+    /* MAIN LAYOUT GRID */
+    main {
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    section {
+        margin-bottom: 2rem;
+    }
+
+    /* COURSE GRID */
+    #coursesContainer {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 10px;
     }
 }
