@@ -1,0 +1,16 @@
+@media (min-width: 768px) {
+
+    #menuBtn {
+        display: none;
+    }
+
+    nav {
+        display: block;
+    }
+
+    nav ul {
+        display: flex;
+        gap: 1rem;
+        list-style: none;
+    }
+}
