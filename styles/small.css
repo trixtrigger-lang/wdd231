@@ -21,6 +21,17 @@ header span {
     font-size: 1.2rem;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+section img {
+    max-width: 250px;
+    display: block;
+    margin: 0 auto;
+}
+
 #menuBtn {
     background: none;
     border: none;
