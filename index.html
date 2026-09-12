@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>wdd231</title>
+    <meta name="author" content="Paul Ethan">
+    <meta name="description" content="WDD231 course home page for Trix Trigger, a web development student studying software development">
+    <title> WDD231 | Paul Ethan </title>
 
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,10 +18,16 @@
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="stylesheet" href="styles/small.css">
 
+    <!-- JavaScript -->
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/course.js" defer></script>
+
 </head>
+
 <body>
     <header>
-        <img src="images/home.svg " alt"Sitelogo" width="512" height="512">
+        <img src="images/homeicon.svg " alt="Sitelogo" width="512" height="512">
         <span>Paul's Site Title</span>
         <button id="ham-btn" class="hamburger"></button>
     </header>
@@ -30,19 +39,110 @@
         </ul>
     </nav>
     <main>
-        <h1>Page Title</h1>
+        <h1>HOME</h1>
+
+        <!-- About Me -->
+        <section class="about-section">
+            <h2>About Me</h2>
+        
+            <div class="about-content">
+        
+                <div class="about-text">
+                    <p>
+                        My name is Paul Ethan. I am a student working toward
+                        developing my skills in software development and web
+                        technologies.
+                    </p>
+        
+                    <p>
+                        I am currently learning HTML, CSS, JavaScript, Python,
+                        and C#. I enjoy creating websites and learning how
+                        technology can be used to solve real-world problems.
+                    </p>
+        
+                    <p>
+                        My goal is to continue improving my programming,
+                        problem-solving, and web development skills.
+                    </p>
+                </div>
+        
+                <div class="about-photo">
+                    <div class="photo-placeholder">
+                        <span>TT</span>
+                    </div>
+                </div>
+        
+            </div>
+        </section>
+        
+        
+        <!-- Student Location -->
+        <section class="location-section">
+            <h2>Student Location</h2>
+        
+            <div class="location-content">
+                <h3>Uganda</h3>
+        
+                <p>
+                    Currently studying and developing my technology skills
+                    while living in Uganda.
+                </p>
+        
+                <p>
+                    I am interested in software development, web design,
+                    business, digital technology, and creative projects.
+                </p>
+            </div>
+        </section>
+        
+        
+        <!-- Certificate Courses -->
+        <section class="certificate-section">
+        
+            <h2>Web and Computer Programming Certificate</h2>
+        
+            <div class="course-buttons">
+                <button id="all" class="filter-button active-filter">
+                    All Courses
+                </button>
+        
+                <button id="wdd" class="filter-button">
+                    WDD Courses
+                </button>
+        
+                <button id="cse" class="filter-button">
+                    CSE Courses
+                </button>
+            </div>
+        
+            <p class="credits">
+                Credits Required:
+                <span id="creditTotal">0</span>
+            </p>
+        
+            <div id="courseContainer" class="course-container">
+                <!-- Courses will be added using JavaScript -->
+            </div>
+        
+        </section>
+
     </main>
     <footer>
         <div class="social">
-            <a href="https://github.com" target="_blank"><img src="images/github.svg" alt="github" width"16" height"16"></a>
-            <a href="https://messenger.com" target="_blank"><img src="images/messenger.svg" alt="messenger" width"16" height"16"></a>
-            <a href="https://twitter-x.com" target="_blank"><img src="images/twitter-x.svg" alt="x.com" width"16" height"16"></a>
-            <a href="https://linkedin.com" target="_blank"><img src="images/linkedin.svg" alt="linkedIn" width"16" height"16"></a>
+            <a href="https://github.com" target="_blank"><img src="images/github.svg" alt="github" width"16"
+                    height"16"></a>
+            <a href="https://messenger.com" target="_blank"><img src="images/messenger.svg" alt="messenger" width"16"
+                    height"16"></a>
+            <a href="https://twitter-x.com" target="_blank"><img src="images/twitter-x.svg" alt="x.com" width"16"
+                    height"16"></a>
+            <a href="https://linkedin.com" target="_blank"><img src="images/linkedin.svg" alt="linkedIn" width"16"
+                    height"16"></a>
         </div>
         <p>copyright symbol and current year</p>
         <p>last modified</p>
     </footer>
     <script src="scripts/navigation.js"></script>
-    
+
 </body>
+
 </html>
