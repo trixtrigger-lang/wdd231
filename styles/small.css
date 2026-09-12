@@ -1,0 +1,42 @@
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    display: grid;
+    grid-template-columns:24px auto 44px;
+    padding: 5px 0 5px 10px;
+    align-items: end;
+    border-bottom: solid 1px darkcyan;
+    column-gap: 8px;
+}
+
+header img{
+    display:block;
+    width:100%;
+    height: auto;
+    padding: 5px;
+}
+
+header span{
+    font-size: 1.2rem;
+    color: grey;
+}
+
+.hamburger{
+    background: none;
+    border: none;
+    color: grey;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.hamburger::before{
+    content: "\2630";
+    font-size: 2rem;
+}
+
+.hamburger.show::before{
+    content: "\00D7";
+}
