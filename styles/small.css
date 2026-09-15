@@ -21,13 +21,13 @@ header img {
 
 header span {
     font-size: 1.2rem;
-    color: grey;
+    color: #555;
 }
 
 .hamburger {
     background: none;
     border: none;
-    color: grey;
+    color: #555;
     cursor: pointer;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
@@ -96,8 +96,8 @@ footer {
     align-items: center;
     width: 44px;
     height: 44px;
-    border: #ccc solid 1px;
-    border: radius 24px;
+    border:1px solid #ccc;
+    border-radius: 24px;
 }
 
 .social img {
