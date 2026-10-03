@@ -1,0 +1,28 @@
+{
+    "family-name": "Mwangi",
+    "date-moved-into-ward": "2025-06-15",
+    "number-of-people": 4,
+    "visited-by-bishopric": true,
+    "family-members": [
+        {
+            "name": "Daniel Mwangi",
+            "gender": "Male",
+            "birthdate": "1988-04-12"
+        },
+        {
+            "name": "Grace Mwangi",
+            "gender": "Female",
+            "birthdate": "1990-09-23"
+        },
+        {
+            "name": "Brian Mwangi",
+            "gender": "Male",
+            "birthdate": "2012-03-18"
+        },
+        {
+            "name": "Mercy Mwangi",
+            "gender": "Female",
+            "birthdate": "2016-11-05"
+        }
+    ]
+}
