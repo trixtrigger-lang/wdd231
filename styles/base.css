@@ -18,15 +18,15 @@ header img {
     height: auto;
 }
 
-header span{
+header span {
     font-size: 1.2rem;
     color: ;
 }
 
 .hamburger {
     background: none;
-    border: none;
     color: ;
+    border: none;
 }
 
 .hamburger::after {
