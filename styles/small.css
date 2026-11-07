@@ -6,16 +6,8 @@
     --primary-color: #17324d;
     --secondary-color: #245b78;
     --accent-color: #f2b84b;
-
-    --text-color: #17212b;
     --muted-color: #52616d;
-
-    --background-color: #f3f6f8;
     --white: #ffffff;
-
-    --border-color: #d6e0e6;
-
-    --completed-bg: #e5f4eb;
     --completed-border: #24734b;
 }
 
@@ -32,9 +24,9 @@
 body {
     font-family: "Roboto", sans-serif;
 
-    background-color: var(--background-color);
+    background-color: var(--white);
 
-    color: var(--text-color);
+    color: var(--primary-color);
 
     line-height: 1.6;
 
@@ -121,7 +113,7 @@ a {
     width: 44px;
     height: 44px;
 
-    border: 1px solid #8da5b7;
+    border: 1px solid #52616d;
 
     border-radius: 6px;
 
@@ -208,7 +200,7 @@ a {
 
 .primary-nav a:hover,
 .primary-nav a:focus-visible {
-    background-color: #294b66;
+    background-color: #245b78;
 
     outline-offset: 3px;
 }
@@ -258,7 +250,7 @@ h2 {
 .card {
     background-color: var(--white);
 
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--white);
 
     border-radius: 10px;
 
@@ -345,7 +337,7 @@ h2 {
 
 .filter-button:hover,
 .filter-button:focus-visible {
-    background-color: #e8f0f5;
+    background-color: white;
 
     outline-offset: 2px;
 }
@@ -377,7 +369,7 @@ h2 {
 }
 
 .course-card {
-    border: 1px solid #b9c8d2;
+    border: 1px solid #52616d;
 
     border-left: 5px solid var(--secondary-color);
 
@@ -411,7 +403,7 @@ h2 {
 /* COMPLETED COURSES */
 
 .course-card.completed {
-    background-color: var(--completed-bg);
+    background-color: var(--white);
 
     border-color: var(--completed-border);
 }
@@ -427,7 +419,7 @@ h2 {
 }
 
 .completed .course-status {
-    color: #155c38;
+    color: #24734b;
 }
 
 /* COMPLETION KEY */
@@ -458,13 +450,13 @@ h2 {
 }
 
 .completed-swatch {
-    background-color: var(--completed-bg);
+    background-color: var(--white);
 
     border: 1px solid var(--completed-border);
 }
 
 .pending-swatch {
-    background-color: #f6f9fb;
+    background-color: white;
 
     border: 1px solid var(--secondary-color);
 
@@ -513,14 +505,14 @@ h2 {
 
     place-items: center;
 
-    border: 1px solid #9bb0bf;
+    border: 1px solid #52616d;
 
     border-radius: 50%;
 }
 
 .social-links a:hover,
 .social-links a:focus-visible {
-    background-color: #294b66;
+    background-color: #245b78;
 
     outline-offset: 3px;
 }
@@ -533,7 +525,7 @@ h2 {
 }
 
 .modified {
-    color: #e2eaf0;
+    color: white;
 
     font-size: 0.85rem;
 }
