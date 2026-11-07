@@ -1,26 +1,90 @@
-@media only screen and (min-width: 38rem) {
-    header, main, nav, footer {
-        max-width: 900px;
-        margin: 0 auto;
-    }
-    header {
-        grid-template-columns: 24px auto;
+/* =================================
+   TABLET AND DESKTOP DESIGN
+================================= */
+
+@media screen and (min-width: 700px) {
+
+    /* HEADER */
+
+    .site-header {
+        padding: 12px max(32px, calc((100% - 1100px) / 2));
     }
 
-    .hambruger {
+    /* HIDE HAMBURGER */
+
+    .menu-toggle {
         display: none;
     }
 
-    .navigation {
-        display: block;
-        border-bottom: solid 1px #EADBC8;
-    }
+    /* DESKTOP NAVIGATION */
 
-    .navigation ul {
+    .primary-nav {
         display: flex;
+
+        position: static;
+
+        padding: 0;
+
+        gap: 8px;
+
+        background-color: transparent;
     }
 
-    .navigation a {
-        border: none;
+    .primary-nav a {
+        padding: 10px 16px;
+
+        border-bottom: 2px solid transparent;
     }
+
+    /* MAIN GRID */
+
+    .main-grid {
+        grid-template-columns:
+            minmax(0, 1.6fr) minmax(230px, 0.9fr);
+
+        align-items: start;
+    }
+
+    /* ABOUT */
+
+    .about {
+        grid-column: 1;
+    }
+
+    /* PHOTO */
+
+    .photo {
+        grid-column: 2;
+
+        grid-row: 1;
+    }
+
+    /* CERTIFICATE */
+
+    .certificate {
+        grid-column: 1 / -1;
+    }
+
+    /* COURSE GRID */
+
+    .course-list {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+
+/* =================================
+   LARGE DESKTOP
+================================= */
+
+@media screen and (min-width: 1000px) {
+
+    .course-list {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .card {
+        padding: 24px;
+    }
+
 }
