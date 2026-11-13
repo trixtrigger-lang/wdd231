@@ -1,0 +1,28 @@
+{
+    "familyName": "Kamau",
+    "moveInDate": "2026-01-15",
+    "numberOfPeople": 4,
+    "visitedByBishopric": false,
+    "familyMembers": [
+        {
+            "name": "David Kamau",
+            "gender": "Male",
+            "birthdate": "1985-04-12"
+        },
+        {
+            "name": "Grace Kamau",
+            "gender": "Female",
+            "birthdate": "1988-09-20"
+        },
+        {
+            "name": "Brian Kamau",
+            "gender": "Male",
+            "birthdate": "2012-06-18"
+        },
+        {
+            "name": "Sarah Kamau",
+            "gender": "Female",
+            "birthdate": "2016-11-03"
+        }
+    ]
+}
