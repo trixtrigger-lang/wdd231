@@ -44,13 +44,13 @@ const displayProphets = (prophets) => {
         const birthPlace = document.createElement('p');
 
         // Add the prophet's full name
-        fullName.textContent = `${prophet.firstname} ${prophet.lastname}`;
+        fullName.textContent = `${prophet.name} ${prophet.lastname}`;
 
         // Add the prophet's image
         portrait.setAttribute('src', prophet.imageurl);
         portrait.setAttribute(
             'alt',
-            `Portrait of ${prophet.firstname} ${prophet.lastname}`
+            `Portrait of ${prophet.name} ${prophet.lastname}`
         );
         portrait.setAttribute('loading', 'lazy');
         portrait.setAttribute('width', '340');
