@@ -5,7 +5,7 @@
             "address": "Plot 12, Buganda Road, Kampala",
             "phone": "+256 700 111 001",
             "website": "https://acacia.example",
-            "image": "images/acacia.svg",
+            "image": "images/acacia.jpg",
             "membership": 3,
             "description": "A creative agency offering graphic design, branding, digital marketing, and business communication services."
         },
@@ -14,7 +14,7 @@
             "address": "Kampala Road, Kampala",
             "phone": "+256 700 111 002",
             "website": "https://pearl.example",
-            "image": "images/pearl.svg",
+            "image": "images/pearl.jpg",
             "membership": 2,
             "description": "A business consultancy helping small and medium enterprises improve operations and develop effective business strategies."
         },
@@ -23,7 +23,7 @@
             "address": "Nakasero Hill, Kampala",
             "phone": "+256 700 111 003",
             "website": "https://summit.example",
-            "image": "images/summit.svg",
+            "image": "images/summit.jpg",
             "membership": 3,
             "description": "A financial services company providing business advisory, financial planning, and accounting support."
         },
@@ -32,7 +32,7 @@
             "address": "Ntinda, Kampala",
             "phone": "+256 700 111 004",
             "website": "https://kampalatech.example",
-            "image": "images/kampala-tech.svg",
+            "image": "images/kampalatech.jpg",
             "membership": 2,
             "description": "A technology company supporting businesses through web development, software solutions, and digital innovation."
         },
@@ -41,7 +41,7 @@
             "address": "Muyenga, Kampala",
             "phone": "+256 700 111 005",
             "website": "https://greenearth.example",
-            "image": "images/green-earth.svg",
+            "image": "images/greenearth.jpg",
             "membership": 1,
             "description": "An environmentally focused enterprise offering sustainable products and green business solutions."
         },
@@ -50,7 +50,7 @@
             "address": "Kikuubo Lane, Kampala",
             "phone": "+256 700 111 006",
             "website": "https://royalprint.example",
-            "image": "images/royalprint.example",
+            "image": "images/royalprint.jpg",
             "membership": 1,
             "description": "A printing and media company offering business stationery, promotional materials, and commercial printing services."
         },
@@ -59,7 +59,7 @@
             "address": "Kololo, Kampala",
             "phone": "+256 700 111 007",
             "website": "https://horizon.example",
-            "image": "images/horizon.svg",
+            "image": "images/horizon.jpg",
             "membership": 3,
             "description": "A property and real estate business specializing in commercial property, property management, and investment consultancy."
         }
