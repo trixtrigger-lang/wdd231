@@ -23,7 +23,7 @@ body {
 .site-header {
     background: var(--primary);
     color: white;
-    border-bottom: 4px solid var(--secondary);
+    border-bottom: 4px solid #D8AC52;
 }
 
 .header-content {
@@ -221,7 +221,7 @@ body {
 .member-card {
     background: var(--surface);
     padding: 1.3rem;
-    border: 1px solid var(--background);
+    border: 1px solid #D8AC52;
     border-radius: 10px;
     box-shadow: var(--shadow);
     text-align: center;
