@@ -1,6 +1,6 @@
 
 // ========================================
-// KAMPALA CHAMBER OF COMMERCE
+// KLA CONNECT CHAMBER
 // BUSINESS DIRECTORY JAVASCRIPT
 // ========================================
 
