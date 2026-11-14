@@ -1,0 +1,123 @@
+/* =================================
+   KAMPALA CHAMBER - LARGE CSS
+   Tablet and desktop layouts
+================================= */
+
+@media screen and (min-width: 640px) {
+
+    /* Header */
+    .header-content {
+        padding: 1.2rem 0;
+    }
+
+    .brand img {
+        width: 55px;
+        height: 55px;
+    }
+
+    .brand-name {
+        font-size: 1.7rem;
+    }
+
+    .brand-description {
+        font-size: 0.72rem;
+        max-width: none;
+    }
+
+    /* Navigation */
+    .menu summary {
+        display: none;
+    }
+
+    .menu .navigation-links {
+        position: static;
+        display: flex;
+        align-items: center;
+        gap: 0.3rem;
+        min-width: auto;
+        background: transparent;
+        box-shadow: none;
+        overflow: visible;
+    }
+
+    .navigation-links a {
+        color: white;
+        padding: 0.7rem 0.8rem;
+        border-radius: 5px;
+        font-size: 0.9rem;
+    }
+
+    .navigation-links a:hover,
+    .navigation-links a.active {
+        background: var(--secondary);
+        color: var(--primary-dark);
+    }
+
+    /* Introduction */
+    .page-intro {
+        padding: 4.5rem 2rem;
+    }
+
+    /* Directory heading */
+    .directory-heading {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* Business grid */
+    .members-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1.5rem;
+    }
+
+    /* List view */
+    .members-list .member-card {
+        flex-direction: row;
+        text-align: left;
+        padding: 1rem 1.5rem;
+    }
+
+    .members-list .member-card img {
+        flex-shrink: 0;
+    }
+
+    .members-list .member-card>div {
+        flex: 1;
+    }
+
+    /* Footer */
+    .footer-content {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .footer-development {
+        grid-column: 1 / -1;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+
+    /* Business grid */
+    .members-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .directory-section {
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+    }
+
+    /* Footer */
+    .footer-content {
+        grid-template-columns: 1.5fr 1fr 1.5fr;
+        gap: 3rem;
+    }
+
+    .footer-development {
+        grid-column: auto;
+        border-top: none;
+        border-left: 1px solid #FFFFFF50;
+        padding: 0 0 0 2rem;
+    }
+}
